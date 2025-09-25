@@ -70,9 +70,9 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 ## screenshots 
 
 ## Navigation Bar
-**Before**
+- **Before**
 - ![Navigation Bar - Desktop](images/nav-then.png)
-**After**
+- **After**
 - ![Navigation Bar - Desktop](images/nav-now.png)
 
 **Hamburger Menu**
@@ -82,26 +82,26 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 - ![Active Tab Highlight](images/nav-active-tab.png)
 
 ## Gallery Page
-**Before**
+- **Before**
 - ![Gallery - Before](images/gallery-then.png)
 
-**After**
+- **After**
 - ![Gallery - After](images/gallery-now.png)
 
 ## Order Online
-**Before**
+- **Before**
 - ![Order Online](images/nav-then.png)
 
-**After**
+- **After**
 - ![Order Online](images/nav-then.png)
 
 ## Contact us and Store Locator
-**Before**
+- **Before**
 - ![Contact and Store Locator](images/contact-then-gauteng.png)
 - ![Contact and Store Locator](images/contact-then-westerncape.png)
 - ![Contact and Store Locator](images/contact-then-kzn.png)
 
-**After**
+- **After**
 - ![Contact and Store Locator](images/contact-now-gauteng.png)
 - ![Contact and Store Locator](images/contact-now-westerncape.png)
 - ![Contact and Store Locator](images/contact-now-kzn.png)
@@ -114,5 +114,4 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 **Ntokozo**  
 Diploma in Information Technology: Software Development  
 Rosebank College  
-
 
