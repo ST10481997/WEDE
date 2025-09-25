@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Order Online | Xpresso Café </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="order-online">
+    <header class="header">
+<div class="background-layer">
+    <img class="logo" src="images/Xpresso Cafe.jpg">
+
+<!-- Hamburger for mobile -->
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('show')">
+        <span></span>
+        <span></span>
+        <span></span>
+		
+      </button>
+
+<nav class="nav-links">
+<button><a href = "Home Page.html">Home Page</a></button>
+<button><a href = "About us.html">About us</a></button>
+<button><a href = "Gallery.html">Gallery</a></button>
+<button><a href = "Menu.html">Menu</a></button>
+<button><a href = "Order Online.html">Order Online</a></button>
+<button><a href = "Contact us and Store locator.html">Contact us and Store locator</a></button>
+</nav>
+</div>
+    </header>
+
+
+<main class="online">
+
+<h1 class="order">Order Online</h1>
+
+<form>
+  <label class="name">Full Name:</label>
+  <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+  <label class="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+  <label for="item">Select Item:</label>
+  <select id="item" name="item" required>
+    <option value="">--- Choose an item ---</option>
+    <optgroup label="Coffees">
+      <option value="Espresso">Espresso</option>
+      <option value="Cappuccino">Cappuccino</option>
+      <option value="CaféLatte">Café Latte</option>
+      <option value="Americano">Americano</option>
+      <option value="DoubleEspresso">Double Espresso</option>
+      <option value="Macchiato">Macchiato</option>
+      <option value="FlatWhite">Flat White</option>
+      <option value="HazelnutDelight">Hazelnut Delight</option>
+      <option value="HazelnutCappuccino">Hazelnut Cappuccino</option>
+      <option value="ToffeeCaramelLatte">Toffee Caramel Latte</option>
+      <option value="ToffeeCaramelDream">Toffee Caramel Dream</option>
+      <option value="HotChocolate">Hot Chocolate</option>
+      <option value="WhiteHotChocolate">White Hot Chocolate</option>
+      <option value="TopDeckHotChocolate">Top Deck Hot Chocolate</option>
+      <option value="SaltedCaramel">Salted Caramel Hottie</option>
+    </optgroup>
+    <optgroup label="Teas">
+      <option value="ChaiLatte">Chai Latte</option>
+      <option value="DirtyChaiLatte">Dirty Chai Latte</option>
+      <option value="RooibosTea">Rooibos Tea</option>
+      <option value="FiveRoses">Five Roses English Tea</option>
+    </optgroup>
+    <optgroup label="Cold Drinks">
+      <option value="FreshJuices">Fresh Juices Daily</option>
+      <option value="CannedDrinks">Canned Drinks</option>
+      <option value="Water">Water Still/Sparkling</option>
+      <option value="IceCoffee">Ice Coffee</option>
+      <option value="MangoSlushy">Mango Slushy</option>
+      <option value="StrawberrySlushy">Strawberry Slushy</option>
+      <option value="SparklingRefresher">Sparkling Refresher</option>
+      <option value="PoppingBoba">Popping Boba</option>
+    </optgroup>
+    <optgroup label="Pastries">
+      <option value="CustardDanish">Custard Danish</option>
+      <option value="AppleDanish">Apple Danish</option>
+      <option value="CinnamonChocTwist">Cinnamon Choc Twist</option>
+      <option value="PlainCroissant">Plain Croissant</option>
+      <option value="CustardCroissant">Custard Croissant</option>
+      <option value="VegetableQuiche">Vegetable Quiche</option>
+      <option value="ChickenMushroomQuiche">Chicken & Mushroom Quiche</option>
+      <option value="ChickenMushroomPie">Chicken & Mushroom Pie</option>
+      <option value="SpinachFetaPie">Spinach & Feta Pie</option>
+      <option value="BoerieRoll">Boerie Roll</option>
+      <option value="ThaiTwist">Thai Twist</option>
+      <option value="CustardCopenhagen">Custard Copenhagen</option>
+      <option value="Vetkoek">Vetkoek</option>
+      <option value="PepperSteakPie">Pepper Steak Pie</option>
+    </optgroup>
+    <optgroup label="Sweet Treats">
+      <option value="ChocolateDoughnut">Chocolate Doughnut</option>
+      <option value="DecadentBrownies">Decadent Brownies</option>
+      <option value="Muffins">Muffins</option>
+      <option value="CaramelDoughnut">Caramel Doughnut</option>
+      <option value="ChocolateMousseCronut">Chocolate Mousse Cronut</option>
+      <option value="BigCookies">Big Cookies *Selected Stores</option>
+      <option value="Hetzoggie">Hetzoggie *Selected Stores</option>
+      <option value="CustardCronut">Custard Cronut *Selected Stores</option>
+      <option value="FrenchDoughnut">French Doughnut *Selected Stores</option>
+    </optgroup>
+    <optgroup label="Sandwiches">
+      <option value="ChickenSalad">Chicken Salad</option>
+      <option value="GarlicKnot">Garlic Knot (Vegan)</option>
+    </optgroup>
+  </select>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+  <label for="notes">Special Instructions:</label>
+  <textarea id="notes" name="notes" rows="3" placeholder="E.g. extra sugar, no milk..."></textarea>
+
+  <input type="submit" value="Place Order">
+</form>
+
+
+</main>
+
+<footer class="footer-info">
+    <p>Copyright &copy; 2025 ST10481997</p>
+</footer>
+</body>
+</html>
