@@ -69,35 +69,38 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 
 ## screenshots 
 
-## Navigation Bar**
+## Navigation Bar
 **Before**
 - ![Navigation Bar - Desktop](images/nav-then.png)
 **After**
 - ![Navigation Bar - Desktop](images/nav-now.png)
 
 **Hamburger Menu**
-- [Hanburger menu- mobile](images/nav-mobile.png)
+- [Hamburger menu- mobile](images/nav-mobile.png)
 
 **Active Tab Styling**
-- ![Active Tab Highloght](images/nav-active-tab.png.png)
+- ![Active Tab Highlight](images/nav-active-tab.png)
 
 ## Gallery Page
 **Before**
 - ![Gallery - Before](images/gallery-then.png)
+
 **After**
 - ![Gallery - After](images/gallery-now.png)
 
 ## Order Online
 **Before**
-- ![Navigation Bar - Desktop](images/nav-then.png)
+- ![Order Online](images/nav-then.png)
+
 **After**
-- ![Navigation Bar - Desktop](images/nav-then.png)
+- ![Order Online](images/nav-then.png)
 
 ## Contact us and Store Locator
 **Before**
 - ![Contact and Store Locator](images/contact-then-gauteng.png)
 - ![Contact and Store Locator](images/contact-then-westerncape.png)
 - ![Contact and Store Locator](images/contact-then-kzn.png)
+
 **After**
 - ![Contact and Store Locator](images/contact-now-gauteng.png)
 - ![Contact and Store Locator](images/contact-now-westerncape.png)
