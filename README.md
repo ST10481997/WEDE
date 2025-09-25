@@ -71,40 +71,41 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 
 ## Navigation Bar
 - **Before**
-- ![Navigation Bar - Desktop](images/nav-then.png)
+ ![Navigation Bar - Desktop](images/nav-then.png)
 - **After**
-- ![Navigation Bar - Desktop](images/nav-now.png)
+ ![Navigation Bar - Desktop](images/nav-now.png)
 
 **Hamburger Menu**
-- [Hamburger menu- mobile](images/nav-mobile.png)
+ ![Hamburger menu - mobile](images/nav-mobile.png)
 
 **Active Tab Styling**
-- ![Active Tab Highlight](images/nav-active-tab.png)
+ ![Active Tab Highlight](images/nav-active-tab.png)
 
 ## Gallery Page
 - **Before**
-- ![Gallery - Before](images/gallery-then.png)
+ ![Gallery - Before](images/gallery-then.png)
+
 
 - **After**
-- ![Gallery - After](images/gallery-now.png)
+ ![Gallery - After](images/gallery-now.png)
 
 ## Order Online
 - **Before**
-- ![Order Online](images/nav-then.png)
+ ![Order Online](images/nav-then.png)
 
 - **After**
-- ![Order Online](images/nav-then.png)
+ ![Order Online](images/nav-now.png)
 
 ## Contact us and Store Locator
 - **Before**
-- ![Contact and Store Locator](images/contact-then-gauteng.png)
-- ![Contact and Store Locator](images/contact-then-westerncape.png)
-- ![Contact and Store Locator](images/contact-then-kzn.png)
+ ![Contact and Store Locator](images/contact-then-gauteng.png)
+ ![Contact and Store Locator](images/contact-then-westerncape.png)
+ ![Contact and Store Locator](images/contact-then-kzn.png)
 
 - **After**
-- ![Contact and Store Locator](images/contact-now-gauteng.png)
-- ![Contact and Store Locator](images/contact-now-westerncape.png)
-- ![Contact and Store Locator](images/contact-now-kzn.png)
+ ![Contact and Store Locator](images/contact-now-gauteng.png)
+ ![Contact and Store Locator](images/contact-now-westerncape.png)
+ ![Contact and Store Locator](images/contact-now-kzn.png)
 
 ## References
 - W3Schools CSS(https://www.w3schools.com/css/default.asp)
@@ -115,3 +116,6 @@ open Home Page.html in your browser ot usr Live Server in VS Code.
 Diploma in Information Technology: Software Development  
 Rosebank College  
 
+
+
+[def]: images/gallery-then.png
