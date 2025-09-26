@@ -1,0 +1,628 @@
+.header {
+  background: linear-gradient(to right, orange);
+  padding: 1em 2em;
+  position: relative;
+  color:white;
+} 
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+}
+
+.logo-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo{
+    height: 150px;
+    
+    margin-bottom: 0.3em;
+}
+
+.home-page{
+    background-image: url("images/Figure9.jpg");
+}
+
+.background-layer{
+    background-color: rgba(255, 165, 0, 0.3);
+    padding: 20px;
+}
+
+
+/* Hamburger menu (hidden on desktop) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.hamburger span {
+  display: block;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background 0.3s ease;
+  
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+    .logo{
+      height: 40px;
+    }
+
+    .hero h1{
+      font-size: 2em;
+    }
+
+    .hero h2{
+      font-size: 1.2em;
+    }
+  
+}
+
+
+/*home page*/
+.hero{
+    text-align:center;
+    
+}
+
+.hero h1
+.specials h2
+.gallery h2{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.welcome{
+    font-size: 5rem;
+    color: cornsilk;
+    font-weight: bolder;
+}
+
+.promo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px orange;
+}
+
+.tagline{
+    color: saddlebrown;
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 1px 1px 2px white; 
+    
+}
+
+.menu-link,
+.gallery-link{
+    font-size: 1.9rem;
+    color:white;
+    background-color: #6f4e37;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}   
+
+.specials-title{
+    color: coral;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 2px #000; 
+}
+
+.item-name{
+    color: cornsilk;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.item-desc{
+    color:magenta;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000; 
+}
+
+.gallery-title{
+    color: #6f4e37;
+    font-style: oblique;
+    font-size: 1.9rem;
+    text-shadow: 1px 1px 2px white;
+}
+
+
+/*about us page*/
+.aboutus-page{
+  background-color: cornsilk;
+}
+
+.about{
+  text-align: center;
+}
+
+.name{
+  color: coral;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.background-info{
+  font-size: larger;
+  font-weight: bolder;
+  color: #6f4e37;
+}
+
+.prices{
+  font-style: italic;
+  font-weight: lighter;
+  text-decoration: wavy underline;
+  color: magenta;
+  font-size: 2.5rem;
+}
+
+.info{
+  color: #6f4e37;
+  font-weight:bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1 rem;
+}
+
+.visit{
+  color: coral;
+  text-shadow: 1px 1px 2px #000;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.stores-link{
+  font-size: 1.9rem;
+  color:white;
+  background-color: #6f4e37;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/*Gallery*/
+.gallery-page{
+    background-image: url("images/Figure11.jpg");
+  }
+
+.gallery{
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 10%;
+}
+
+.card {
+  background: #f0f0f0;
+  width: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card:hover {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), blue);
+  color: white;
+  transform: translateY(-5px);
+}
+
+.items{
+  font-size: 2.5rem;
+  font-style: oblique;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.ourstores{
+  font-size: 2.5rem;
+  font-style: oblique;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-gallery img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+/*menu page*/
+.menu-options{
+  background-image: url("images/Figure10.jpg");
+}
+
+.menu{
+    text-align: center;
+}
+
+.offer{
+font-size: 3rem;
+color: cornsilk;
+font-weight: bold;
+text-shadow: 1px 1px 2px #000;
+}
+
+.options{
+color:magenta;
+font-size:3rem;
+text-shadow: 1px 1px 2px #000;
+}
+
+.download-menu{
+font-size: 2.5rem;
+color: #6f4e37;
+text-shadow: 1px 1px 2px white;
+}
+
+.download-link{
+    color:#6f4e37;
+    font-size: 1.5rem;
+    
+}
+
+.download-link a:hover{
+color: #00bcd4;
+}
+
+.order-link{
+color: #6f4e37;
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+order-link a:hover{
+    color:#00bcd4;
+}
+
+.order-link{
+    display:contents
+    
+}
+
+.order-link.show{
+    display:contents;
+}
+
+
+/*order online page*/
+
+.order-online{
+    background-image: url("images/Figure6.jpg");
+}
+
+.order{
+    text-align: center;
+    color: cornsilk;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #6f4e37;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #00bcd4;
+}
+
+/*contact us and store locator page*/
+.main-class{
+  text-align: center;
+}
+
+.getintouch{
+  text-align: center;
+  color: white;
+  padding: 30px 20px;
+}
+.contact-page {
+  background-color: #6f4e37; 
+}
+
+.contact{
+  font-weight: lighter;
+  font-size: 4.5rem;
+  font-style: oblique;
+  color: coral;
+}
+
+.ahold{
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px coral;
+  text-decoration: underline;
+}
+
+.details{
+  font-size: 2rem;
+  font-weight: lighter;
+  text-shadow: 1px 1px 2px white;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover{
+  transform:scale(1.1);
+}
+
+h1{
+  color:cornsilk;
+}
+
+/* Store search section */
+.store-search {
+  text-align: center;
+  margin: 2em auto;
+  padding: 1em;
+  background: linear-gradient(to right, #ff9900, #ff4500);
+  color: white;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.store-search label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+#storeSearch {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* Tabs */
+.tab-wrapper {
+  padding: 20px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs label {
+  padding: 10px 20px;
+  background: #444;
+  color: #ccc;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #666;
+  color: white;
+}
+
+/* Province Sections */
+.province-section {
+  display: none;
+  padding: 20px;
+  background: #333;
+  border-radius: 0 5px 5px 5px;
+}
+
+/* Show selected section */
+.tab-gauteng:checked ~ .content #gauteng,
+.tab-western-cape:checked ~ .content #western-cape,
+.tab-kzn:checked ~ .content #kzn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Store Cards */
+.store-card {
+  background: cornsilk;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 320px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.store-card:hover {
+  transform: scale(1.1);
+}
+
+.store-card h3 {
+  font-family: Algerian, serif;
+  font-size: 1.5rem;
+  color: orange;
+  margin-top: 0;
+}
+
+.store-card p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+/*footer*/
+footer {
+      background-color: orange;
+      color: white;
+      padding: 1.5rem 1rem;
+      font-size: 1.0rem;
+    }
+
+.footer-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+.footer-nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+.footer-nav a:hover {
+      color: #00bcd4;
+    }
+
+.footer-info {
+      text-align: center;
+      font-size: 1rem;
+      color:white;
+}
